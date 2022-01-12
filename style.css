@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display';
+}
+
+main{
+    background: #cccded86;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card{
+    min-width: 375px;
+    max-width: 400px;
+    height: 600px;
+    min-height: 570px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.card_hero{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.card_hero img{
+    width: 100%;
+}
+
+.card_info{
+ background: #fff;
+ display: flex;
+ flex-direction: column;
+  
+}
+
+.card_info h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: bolder;
+}
+
+.card_info p{
+    padding: 0px 2rem;
+    text-align: center;
+}
+
+.card_info__music{
+    width: 80%;
+    margin: 0px auto 30px auto;
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    background: #F8F9FE;
+    color: #000;
+    padding: 20px 0px;
+    border-radius: 1em;
+}
+
+.card_info__music .music_plan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.card_info__music .music_plan h4{
+    margin: 5px;
+}
+
+.card_info__music .music_plan span{
+    color: #0008;
+}
+
+.card_info__music a{
+    color: blue;
+    font-size: 13px;
+}
+
+.card_actions{
+    background: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.card_actions button:nth-child(1){
+    background: #382AE1;
+    color: #fff;
+    font-weight: bolder;
+    height: 40px;
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 6px 0px rgba(116, 126, 219, 0.377);
+    cursor: pointer;
+}
+
+.card_actions button:nth-child(2){
+    background: none;
+    border: none;
+    border-radius: 10px;
+    opacity: .8;
+    cursor: pointer;
+    margin: 30px;
+}
